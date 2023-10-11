@@ -1,0 +1,50 @@
+body {
+  font-family: "Montserrat";
+}
+
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(100);
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+  padding: 5rem 0;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.container-fluid {
+  padding: 3% 10%;
+}
+.carousel > .carousel-inner > .carousel-item > img {
+  height: 25rem;
+}
+
+.imgRtt {
+  /* transform: rotate(-10deg); */
+  width: 25rem;
+  height: 25rem;
+  animation: fade-up 5s;
+}
+
+#features {
+  padding: 5%;
+}
